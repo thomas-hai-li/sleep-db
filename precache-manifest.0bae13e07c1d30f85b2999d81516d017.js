@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d1275c2c0fd6c141d38a54c1223fa24",
+    "revision": "452cdc0447e520f7f715a56f395ebc0d",
     "url": "/restly-app/index.html"
   },
   {
