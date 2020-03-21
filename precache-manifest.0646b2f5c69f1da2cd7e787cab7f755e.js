@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "452cdc0447e520f7f715a56f395ebc0d",
+    "revision": "8373b6192f7e51841ee780ebc7390f92",
     "url": "/restly-app/index.html"
   },
   {
-    "revision": "81b5601a2c5cfc630fc4",
-    "url": "/restly-app/static/css/main.862bff3c.chunk.css"
+    "revision": "7a0ed14314dc44a02121",
+    "url": "/restly-app/static/css/main.6237e225.chunk.css"
   },
   {
     "revision": "d0f70bc871ce4b4a02f2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/restly-app/static/js/2.53043f1f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "81b5601a2c5cfc630fc4",
-    "url": "/restly-app/static/js/main.c7ba808f.chunk.js"
+    "revision": "7a0ed14314dc44a02121",
+    "url": "/restly-app/static/js/main.77249214.chunk.js"
   },
   {
     "revision": "97d8797c6047ade3080f",

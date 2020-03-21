@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/restly-app/precache-manifest.0bae13e07c1d30f85b2999d81516d017.js"
+  "/restly-app/precache-manifest.0646b2f5c69f1da2cd7e787cab7f755e.js"
 );
 
 self.addEventListener('message', (event) => {
