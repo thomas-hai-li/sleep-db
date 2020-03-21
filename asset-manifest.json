@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-sleep-tracker/static/css/main.f19b08d0.chunk.css",
-    "main.js": "/react-sleep-tracker/static/js/main.33a8fcaa.chunk.js",
-    "main.js.map": "/react-sleep-tracker/static/js/main.33a8fcaa.chunk.js.map",
-    "runtime-main.js": "/react-sleep-tracker/static/js/runtime-main.45463a1b.js",
-    "runtime-main.js.map": "/react-sleep-tracker/static/js/runtime-main.45463a1b.js.map",
-    "static/js/2.53043f1f.chunk.js": "/react-sleep-tracker/static/js/2.53043f1f.chunk.js",
-    "static/js/2.53043f1f.chunk.js.map": "/react-sleep-tracker/static/js/2.53043f1f.chunk.js.map",
-    "index.html": "/react-sleep-tracker/index.html",
-    "precache-manifest.a1893c2376f6179d45551c0716c75c0b.js": "/react-sleep-tracker/precache-manifest.a1893c2376f6179d45551c0716c75c0b.js",
-    "service-worker.js": "/react-sleep-tracker/service-worker.js",
-    "static/css/main.f19b08d0.chunk.css.map": "/react-sleep-tracker/static/css/main.f19b08d0.chunk.css.map",
-    "static/js/2.53043f1f.chunk.js.LICENSE.txt": "/react-sleep-tracker/static/js/2.53043f1f.chunk.js.LICENSE.txt"
+    "main.css": "/restly-app/static/css/main.862bff3c.chunk.css",
+    "main.js": "/restly-app/static/js/main.c7ba808f.chunk.js",
+    "main.js.map": "/restly-app/static/js/main.c7ba808f.chunk.js.map",
+    "runtime-main.js": "/restly-app/static/js/runtime-main.160ad86c.js",
+    "runtime-main.js.map": "/restly-app/static/js/runtime-main.160ad86c.js.map",
+    "static/js/2.53043f1f.chunk.js": "/restly-app/static/js/2.53043f1f.chunk.js",
+    "static/js/2.53043f1f.chunk.js.map": "/restly-app/static/js/2.53043f1f.chunk.js.map",
+    "index.html": "/restly-app/index.html",
+    "precache-manifest.649667b3018b51d836add60678a57c98.js": "/restly-app/precache-manifest.649667b3018b51d836add60678a57c98.js",
+    "service-worker.js": "/restly-app/service-worker.js",
+    "static/css/main.862bff3c.chunk.css.map": "/restly-app/static/css/main.862bff3c.chunk.css.map",
+    "static/js/2.53043f1f.chunk.js.LICENSE.txt": "/restly-app/static/js/2.53043f1f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.45463a1b.js",
+    "static/js/runtime-main.160ad86c.js",
     "static/js/2.53043f1f.chunk.js",
-    "static/css/main.f19b08d0.chunk.css",
-    "static/js/main.33a8fcaa.chunk.js"
+    "static/css/main.862bff3c.chunk.css",
+    "static/js/main.c7ba808f.chunk.js"
   ]
 }
