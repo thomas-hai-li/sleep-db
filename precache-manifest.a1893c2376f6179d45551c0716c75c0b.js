@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a542ef19eb1e4aaaf6d6c78d91e267a",
+    "revision": "07edfcd34e483a42b892f4ed0ab4fe5b",
     "url": "/react-sleep-tracker/index.html"
   },
   {
-    "revision": "a5cbbaf08774a24f25b5",
-    "url": "/react-sleep-tracker/static/css/main.1b3c20ec.chunk.css"
+    "revision": "1822858e2001e068a0ca",
+    "url": "/react-sleep-tracker/static/css/main.f19b08d0.chunk.css"
   },
   {
     "revision": "d0f70bc871ce4b4a02f2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-sleep-tracker/static/js/2.53043f1f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5cbbaf08774a24f25b5",
-    "url": "/react-sleep-tracker/static/js/main.489a3560.chunk.js"
+    "revision": "1822858e2001e068a0ca",
+    "url": "/react-sleep-tracker/static/js/main.33a8fcaa.chunk.js"
   },
   {
     "revision": "e083b35e54e3f619fdae",
