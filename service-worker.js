@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-sleep-tracker/precache-manifest.a37e3467b7a84b302d08c8d95ba365a3.js"
+  "/react-sleep-tracker/precache-manifest.a5517476ab11ad9de70a1159d7784c33.js"
 );
 
 self.addEventListener('message', (event) => {
