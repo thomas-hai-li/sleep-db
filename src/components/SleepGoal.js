@@ -3,7 +3,7 @@ import { GlobalContext } from '../context/GlobalState';
 
 export const SleepGoal = () => {
   const { sleepHoursGoal, updateSleepHoursGoal } = useContext(GlobalContext);
-  const [ , updateState ] = React.useState();
+  const [ , updateState ] = useState();
   const forceUpdate = React.useCallback(() => updateState({}), []);
 
   function onInput(newGoal) {
@@ -20,12 +20,14 @@ export const SleepGoal = () => {
 
   return (
     <div>
-      <h4>My Goal</h4>
+      <h4>
+        My Goal <span className="hint">(click to edit)</span>
+      </h4>
       <h1>
         <span contentEditable onInput={(e) => onInput(e.target.innerHTML)}>
           {sleepHoursGoal}
         </span>{' '}
-        hours
+        hours<span className="hint"> per night</span>
       </h1>
     </div>
   );

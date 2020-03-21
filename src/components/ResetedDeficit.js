@@ -27,15 +27,10 @@ export const RestedDeficit = () => {
     averageDeficitHHMM = '0:00';
   }
 
-  console.log(deficitEntries);
-  // console.log(sumDeficitHours);
-  // console.log(averageDeficitMillisec);
-  console.log(averageDeficitHHMM);
-
   return (
     <div className="inc-exp-container">
       <div>
-        <h4>Rested Days</h4>
+        <h4>Rested Nights</h4>
         <p className="stats plus">{numRestedDays}</p>
       </div>
       <div>

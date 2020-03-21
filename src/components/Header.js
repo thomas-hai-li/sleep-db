@@ -1,5 +1,14 @@
 import React from 'react';
 
-export const Header = (props) => {
-  return <h2 className="header">{props.title}</h2>;
+export const Header = () => {
+  const rand = Math.floor(Math.random() * 2 + 1);
+  const icon = rand % 2 === 0 ? '🌙' : '💤';
+
+  return (
+    <h2 className="header">
+      Sleep Tracker<sup>
+        <sup>{icon}</sup>
+      </sup>
+    </h2>
+  );
 };

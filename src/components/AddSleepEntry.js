@@ -29,6 +29,7 @@ export const AddSleepEntry = () => {
 
     const newSleepEntry = {
       id: Math.floor(Math.random() * 1000000000000),
+      dateAdded: new Date(),
       date,
       startTime,
       endTime,

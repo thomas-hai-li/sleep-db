@@ -12,7 +12,7 @@ import './App.css';
 function App() {
   return (
     <GlobalProvider>
-      <Header title="Sleep Tracker™" />
+      <Header />
       <div className="container">
         <SleepGoal />
         <RestedDeficit />

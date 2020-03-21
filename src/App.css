@@ -36,6 +36,17 @@ body {
   text-align: right;
 }
 
+.hint {
+  color: #454446;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.timeRange {
+  color: #454446;
+  font-size: 0.8em;
+}
+
 h1 {
   letter-spacing: 1px;
   margin: 0;
@@ -140,6 +151,7 @@ textarea {
   color: #fff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: relative;
   padding: 10px;
   margin: 10px 0;
