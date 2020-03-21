@@ -6,7 +6,7 @@ export const Header = () => {
 
   return (
     <h2 className="header">
-      Sleep Tracker<sup>
+      Restly.app<sup>
         <sup>{icon}</sup>
       </sup>
     </h2>
