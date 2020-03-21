@@ -7,7 +7,7 @@ export const SleepEntriesList = () => {
 
   return (
     <div>
-      <h3>Entries</h3>
+      <h3>Sleep Log</h3>
       <ul className="list">{sleepEntries.map((e) => <SleepEntry key={e.id} sleepEntry={e} />)}</ul>
     </div>
   );

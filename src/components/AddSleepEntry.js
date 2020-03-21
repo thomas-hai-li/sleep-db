@@ -3,10 +3,10 @@ import { GlobalContext } from '../context/GlobalState';
 import { millisecToHHMM } from '../utils/Time';
 
 export const AddSleepEntry = () => {
-  const [ date, setDate ] = useState(null);
-  const [ startTime, setStartTime ] = useState(null);
-  const [ endTime, setEndTime ] = useState(null);
-  const [ notes, setNotes ] = useState('');
+  const [date, setDate] = useState(null);
+  const [startTime, setStartTime] = useState(null);
+  const [endTime, setEndTime] = useState(null);
+  const [notes, setNotes] = useState('');
 
   const { addSleepEntry } = useContext(GlobalContext);
 
@@ -60,7 +60,7 @@ export const AddSleepEntry = () => {
         }
       }
     },
-    [ date ]
+    [date]
   );
 
   return (
@@ -71,33 +71,38 @@ export const AddSleepEntry = () => {
         <div className="form-control">
           <input type="date" onChange={(e) => setDate(new Date(e.target.value + ' ' + timezone))} />
         </div>
-        <label htmlFor="amount">Start End</label>
         <div className="form-control">
-          <input
-            type="time"
-            onChange={(e) => {
-              let newStartTime;
-              if (date) {
-                newStartTime = new Date(`${date.toDateString()} ${e.target.value} ${timezone}`);
-              } else {
-                newStartTime = new Date(`${today} ${e.target.value} ${timezone}`);
-              }
-              if (newStartTime.getHours() >= 12) {
-                newStartTime.setHours(newStartTime.getHours() - 24); // set the start time date to the day before if time is in PM
-              }
-              setStartTime(newStartTime);
-            }}
-          />
-          <input
-            type="time"
-            onChange={(e) => {
-              if (date) {
-                setEndTime(new Date(`${date.toDateString()} ${e.target.value} ${timezone}`));
-              } else {
-                setEndTime(new Date(`${today} ${e.target.value} ${timezone}`));
-              }
-            }}
-          />
+          <div className="input-label-group">
+            <label htmlFor="amount">Sleep Start</label>
+            <input
+              type="time"
+              onChange={(e) => {
+                let newStartTime;
+                if (date) {
+                  newStartTime = new Date(`${date.toDateString()} ${e.target.value} ${timezone}`);
+                } else {
+                  newStartTime = new Date(`${today} ${e.target.value} ${timezone}`);
+                }
+                if (newStartTime.getHours() >= 12) {
+                  newStartTime.setHours(newStartTime.getHours() - 24); // set the start time date to the day before if time is in PM
+                }
+                setStartTime(newStartTime);
+              }}
+            />
+          </div>
+          <div className="input-label-group">
+            <label htmlFor="amount">Sleep End</label>
+            <input
+              type="time"
+              onChange={(e) => {
+                if (date) {
+                  setEndTime(new Date(`${date.toDateString()} ${e.target.value} ${timezone}`));
+                } else {
+                  setEndTime(new Date(`${today} ${e.target.value} ${timezone}`));
+                }
+              }}
+            />
+          </div>
         </div>
         <label htmlFor="note">Notes</label>
         <div className="form-control">

@@ -1,32 +1,28 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
 
 export const SleepGoal = () => {
   const { sleepHoursGoal, updateSleepHoursGoal } = useContext(GlobalContext);
-  const [ , updateState ] = useState();
-  const forceUpdate = React.useCallback(() => updateState({}), []);
 
-  function onInput(newGoal) {
-    newGoal = +newGoal;
+  function onGoalChange(newNum) {
+    const digitPressed = +newNum[newNum.length - 1];
 
-    if (newGoal <= 24) {
-      updateSleepHoursGoal(newGoal);
-      forceUpdate();
-    } else {
-      updateSleepHoursGoal(sleepHoursGoal);
-      forceUpdate();
+    // within normal range
+    if (digitPressed <= 9 && digitPressed >= 1 && !isNaN(digitPressed)) {
+      updateSleepHoursGoal(digitPressed);
+    }
+    else {
+      updateSleepHoursGoal(sleepHoursGoal)
     }
   }
 
   return (
-    <div>
+    <div className="sleep-goal">
       <h4>
         My Goal <span className="hint">(click to edit)</span>
       </h4>
+      <input type="number" className='inputHoursGoal' value={sleepHoursGoal} onChange={(e) => onGoalChange(e.target.value)} />
       <h1>
-        <span contentEditable onInput={(e) => onInput(e.target.innerHTML)}>
-          {sleepHoursGoal}
-        </span>{' '}
         hours<span className="hint"> per night</span>
       </h1>
     </div>
