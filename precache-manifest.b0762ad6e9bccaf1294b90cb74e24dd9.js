@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52657c5a46ab1e0952e5ee183c38ceb5",
+    "revision": "45abdfcc2d9b6c507c3fd1b325bf201f",
     "url": "/sleep-db/index.html"
   },
   {
-    "revision": "45e260ae68fa492508ba",
+    "revision": "5ce519c729a0302b435c",
     "url": "/sleep-db/static/css/main.6237e225.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sleep-db/static/js/2.ad6eff17.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45e260ae68fa492508ba",
-    "url": "/sleep-db/static/js/main.c2e739ba.chunk.js"
+    "revision": "5ce519c729a0302b435c",
+    "url": "/sleep-db/static/js/main.bdb9b687.chunk.js"
   },
   {
     "revision": "4898fefdf40e7e0ce75c",
