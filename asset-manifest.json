@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/sleep-db/static/css/main.6237e225.chunk.css",
-    "main.js": "/sleep-db/static/js/main.790ee97a.chunk.js",
-    "main.js.map": "/sleep-db/static/js/main.790ee97a.chunk.js.map",
-    "runtime-main.js": "/sleep-db/static/js/runtime-main.416b42f4.js",
-    "runtime-main.js.map": "/sleep-db/static/js/runtime-main.416b42f4.js.map",
-    "static/js/2.53043f1f.chunk.js": "/sleep-db/static/js/2.53043f1f.chunk.js",
-    "static/js/2.53043f1f.chunk.js.map": "/sleep-db/static/js/2.53043f1f.chunk.js.map",
+    "main.js": "/sleep-db/static/js/main.c2e739ba.chunk.js",
+    "main.js.map": "/sleep-db/static/js/main.c2e739ba.chunk.js.map",
+    "runtime-main.js": "/sleep-db/static/js/runtime-main.a9c10068.js",
+    "runtime-main.js.map": "/sleep-db/static/js/runtime-main.a9c10068.js.map",
+    "static/js/2.ad6eff17.chunk.js": "/sleep-db/static/js/2.ad6eff17.chunk.js",
+    "static/js/2.ad6eff17.chunk.js.map": "/sleep-db/static/js/2.ad6eff17.chunk.js.map",
     "index.html": "/sleep-db/index.html",
-    "precache-manifest.c5fb84beda6d16196176c3375b9a8a1f.js": "/sleep-db/precache-manifest.c5fb84beda6d16196176c3375b9a8a1f.js",
+    "precache-manifest.e749b77025410471c4983722352138dc.js": "/sleep-db/precache-manifest.e749b77025410471c4983722352138dc.js",
     "service-worker.js": "/sleep-db/service-worker.js",
     "static/css/main.6237e225.chunk.css.map": "/sleep-db/static/css/main.6237e225.chunk.css.map",
-    "static/js/2.53043f1f.chunk.js.LICENSE.txt": "/sleep-db/static/js/2.53043f1f.chunk.js.LICENSE.txt"
+    "static/js/2.ad6eff17.chunk.js.LICENSE.txt": "/sleep-db/static/js/2.ad6eff17.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.416b42f4.js",
-    "static/js/2.53043f1f.chunk.js",
+    "static/js/runtime-main.a9c10068.js",
+    "static/js/2.ad6eff17.chunk.js",
     "static/css/main.6237e225.chunk.css",
-    "static/js/main.790ee97a.chunk.js"
+    "static/js/main.c2e739ba.chunk.js"
   ]
 }
